@@ -5,6 +5,10 @@ body, html {
 body,
 html,
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 .wealth-wrapper-outer
 .wealth-row {
   min-height: 100%;
