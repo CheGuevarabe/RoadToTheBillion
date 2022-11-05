@@ -26,14 +26,6 @@ h1 {
   margin-top: 100px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .scroll-this-way {
     align-self: flex-end;
     width: 400px;
