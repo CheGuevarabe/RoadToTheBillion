@@ -27,13 +27,7 @@ h3 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .scroll-this-way {
     align-self: flex-end;
     width: 400px;
