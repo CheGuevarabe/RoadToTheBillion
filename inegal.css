@@ -532,3 +532,15 @@ h3 {
 .end-musk .title {
   max-width: 3900px;
 }
+
+.people-wrapper-outer h2 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin: 5px;
+}
+
+@media (max-width: 450px) {
+  .piechart h2 {
+    font-size: 17px;
+  }
