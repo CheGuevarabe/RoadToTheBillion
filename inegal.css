@@ -11,6 +11,7 @@ html,
 .title-screen {
   width: 100vw;
 }
+
 h1 {
   text-align: center;
   font-size: 60px;
@@ -18,12 +19,14 @@ h1 {
   width: 100%;
   margin-top: 100px;
 }
-h3 {
-  display: block;
+
+h2 {
+  position: static;
+  width: 100vw;
   font-size: 1.17em;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
+  margin-inline-start: 2000px;
   margin-inline-end: 0px;
   font-weight: bold;
 }
@@ -261,15 +264,23 @@ h3 {
   margin-top: 1px;
   background-color: #73ff00;
 }
-.infobox-half {
-  margin-left: 4000px;
-}
 .infobox-quarter {
   margin-left: 2000px;
 }
-.infobox-close {
-  margin-left: 500px;
+.infobox-half {
+  margin-left: 4000px;
 }
+.infobox-close {
+  margin-left: 600px;
+}
+.infobox-end{
+  margin-left: 8000px;
+}
+
+.infobox-finish{
+  margin-left: 9000px;
+}
+
 .sub-infobox {
   margin: 0 40px;
 }
@@ -342,11 +353,18 @@ h3 {
   padding: 5px;
   min-width: 140px;
 }
-.lifetime .square {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(255, 81, 0);
+.hsalaire .square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 85);
   }
+
+.fsalaire .square {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(238, 255, 0);
+  }
+  
   .healthcare .square {
     width: 5px;
     height: 5px;
@@ -363,15 +381,7 @@ h3 {
   margin-top: 5px;
   background-color: #649132;
 }
-.year-veteran .title {
-  width: auto;
-  padding: 180px;
-  max-width: 500px;
-  left: 0;
-}
-.year-veteran .square {
-  position: static;
-}
+
 .year-chemo {
   width: auto;
 }
@@ -403,6 +413,37 @@ h3 {
   height: 350px;
   background-color: #000000;
 }
+
+.rihanna .square {
+  width: 7000px;
+  height: 350px;
+  background-color: #00a2ff;
+}
+
+.madonna .square {
+  width: 2755px;
+  height: 350px;
+  background-color: #7860ff;
+}
+
+.swift .square {
+  width: 2700px;
+  height: 350px;
+  background-color: #9e2020;
+}
+
+.dion .square {
+  width: 2400px;
+  height: 350px;
+  background-color: #8a8100;
+}
+
+.beyonce .square {
+  width: 2200px;
+  height: 350px;
+  background-color: #777d84;
+}
+
 .goldman .square {
   width: 350px;
   height: 250px;
@@ -428,13 +469,11 @@ h3 {
   height: 300px;
   background-color: #7bffe9;
 }
-
 .garedemons .square {
   width: 320px;
   height: 300px;
   background-color: #d82929;
 }
-
 .monsgare .square {
   width: 1600px;
   height: 300px;
@@ -445,51 +484,51 @@ h3 {
   height: 350px;
   background-color: #004170;
 }
-
 .federer .square {
   width: 2200px;
   height: 350px;
   background-color: #f8eaff;
 }
-
 .ronaldo .square {
   width: 2300px;
   height: 350px;
   background-color: #FFE500;
 }
-
 .staubach .square {
   width: 3000px;
   height: 350px;
   background-color: #0C264C;
 }
-
 .johnson .square {
   width: 3000px;
   height: 350px;
   background-color: #542583;
 }
-
 .mayweather .square {
   width: 4000px;
   height: 350px;
   background-color: #f1cd00;
 }
-
 .lebron .square {
   width: 5000px;
   height: 350px;
   background-color: #860038;
 }
-
 .woods .square {
   width: 5200px;
   height: 350px;
   background-color: #ff0000;
 }
-
 .jordan .square {
   width: 10000px;
   height: 350px;
   background-color: #BC032B;
+}
+
+.no-end .title {
+  max-width: 390px;
+}
+
+.end-musk .title {
+  max-width: 3900px;
 }
